@@ -26,6 +26,7 @@ public class QuizActivity extends AppCompatActivity {
         mFalseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mFalseButton.setText("Text");
 
             }
         });
